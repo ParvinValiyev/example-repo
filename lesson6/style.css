@@ -1,0 +1,46 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+span {
+    color: blueviolet;
+}
+
+.header {
+    background-color: brown;
+}
+
+.card {
+    background-color: aquamarine;
+}
+
+.card > h3 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+[title] {
+    color: green;
+}
+
+[data-status='success'] {
+    background-color: green;
+}
+
+[data-status='fail'] {
+    background-color: blue;
+}
+
+[data-status='progress'] {
+    background-color: red;
+}
+
+input[type="number"] {
+    background-color: yellow;
+    color: black;
+}
+
+input[type="number"]::placeholder {
+    color: blueviolet;
+}
